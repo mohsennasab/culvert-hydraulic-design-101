@@ -3,8 +3,6 @@
 _A simple, practical introduction to culvert hydraulics, flow types, and design fundamentals with HY-8 examples._
 
 ---
-
-**by:**  
 **Mohsen Tahmasebi Nasab, PhD**  
 - 🌐 [Website](https://www.hydromohsen.com/)  
 - 💼 [LinkedIn](https://www.linkedin.com/in/hydromohsen/)  
@@ -21,12 +19,22 @@ _A simple, practical introduction to culvert hydraulics, flow types, and design 
 - Appreciate real-world factors: Acknowledge the importance of culvert maintenance (debris blockage, sedimentation) on performance and safety.
 Intro to design tools: Gain a basic familiarity with FHWA culvert design guidelines and how to use HY-8 software to analyze culvert performance.
 
-### 1. Introduction to Culverts
+## 1. Introduction to Culverts
 - A culvert is a buried conduit designed to hydraulically convey surface water runoff or streamflow beneath a highway, roadway, railroad, or other embankment. Typically composed of structural materials around their full perimeter, culverts may also include bottomless designs. 
 - They are distinguished from bridges unless their opening width is 10 feet or greater along the roadway centerline. Regardless of structure type, culverts are analyzed using hydraulic design principles to ensure they safely manage flow without disrupting transportation routes.
 
-### Culvert Design Criteria — Concise Checklist
-## [MnDOT Drainage Manual – Chapter 5](https://edocs-public.dot.state.mn.us/edocs_public/DMResultSet/download?docId=38670902)
+**Culvert collapses** can cause major safety hazards, disrupt transportation, damage ecosystems, and require costly emergency repairs. Many road washouts during storms are directly linked to culvert blockages, under-sizing, or structural failure.
+
+---
+## 🎥 Culvert Failure to Watch"
+
+- **"Culvert Failure - Road Washout "** (YouTube):  
+  [Watch Here](https://youtube.com/shorts/J7mJAjFQG8Y?si=I3MZugXmWgXUVPAu)  
+  *Real footage of road collapsing due to culvert failures during floods.*
+---
+
+## Culvert Design Criteria — Concise Checklist
+### [MnDOT Drainage Manual – Chapter 5](https://edocs-public.dot.state.mn.us/edocs_public/DMResultSet/download?docId=38670902)
 
 # Key Culvert Design Criteria
 
