@@ -260,17 +260,29 @@ The *Culvert Design Guidelines for Ecological Function* developed by the U.S. Fi
 
 ## 📚 References
 
+## 📚 References
+
 1. **Minnesota Department of Transportation (MnDOT).**  
    *Drainage Manual: Chapter 5 – Culvert Design.*  
    Minnesota Department of Transportation, 2024.  
+   [https://www.dot.state.mn.us/bridge/hydraulics/drainagemanual.html](https://www.dot.state.mn.us/bridge/hydraulics/drainagemanual.html)
 
 2. **Federal Highway Administration (FHWA).**  
    *Hydraulic Design Series No. 5 (HDS-5): Hydraulic Design of Highway Culverts.*  
    FHWA Publication No. FHWA-HIF-12-026, U.S. Department of Transportation, 2012.  
+   [https://www.fhwa.dot.gov/engineering/hydraulics/pubs/12026/hif12026.pdf](https://www.fhwa.dot.gov/engineering/hydraulics/pubs/12026/hif12026.pdf)
 
-3. **Culvert Design Guidelines for Ecological Function.**  
-   *Stream Simulation: An Ecological Approach to Culvert Design.*  
-   U.S. Forest Service, National Technology & Development Program, Publication No. 0877 1801, 2008.
+3. **U.S. Fish and Wildlife Service (USFWS).**  
+   *Culvert Design Guidelines for Ecological Function.*  
+   Accessed April 27, 2025.  
+   [https://www.fws.gov/alaska-culvert-design-guidelines](https://www.fws.gov/alaska-culvert-design-guidelines)
+
+4. **Minnesota Department of Natural Resources (MnDNR).**  
+   *Fluvial Geomorphology and Stream Habitat Principles.*  
+   Accessed April 27, 2025.  
+   [https://www.dnr.state.mn.us/eco/streamhab/geomorphology/index.html](https://www.dnr.state.mn.us/eco/streamhab/geomorphology/index.html)
+
+
 
 ---
 
