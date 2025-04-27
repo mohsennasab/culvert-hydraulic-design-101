@@ -191,6 +191,15 @@ You have been asked to analyze the existing culvert using HY-8 and propose recom
   <em>Note: Watershed boundaries are outlined in red, and the culvert location is marked with a black arrow.</em>
 </p>
 
+### 📈 Design Hydrograph
+
+<p align="center">
+  <img src="Images/Hydrograph.jpg" alt="Design Hydrograph" width="700">
+</p>
+
+<p align="center">
+  <em>Figure: The design flow selected for culvert analysis corresponds to the peak of the hydrograph shown above.</em>
+</p>
 
 
 ### HY-8 Demo Inputs Summary
