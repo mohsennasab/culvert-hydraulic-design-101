@@ -22,7 +22,9 @@ Intro to design tools: Gain a basic familiarity with FHWA culvert design guideli
 - A culvert is a buried conduit designed to hydraulically convey surface water runoff or streamflow beneath a highway, roadway, railroad, or other embankment. Typically composed of structural materials around their full perimeter, culverts may also include bottomless designs. 
 - They are distinguished from bridges unless their opening width is 10 feet or greater along the roadway centerline. Regardless of structure type, culverts are analyzed using hydraulic design principles to ensure they safely manage flow without disrupting transportation routes.
 
-<img src="Images/Bridge%20vs%20Culvert.jpg" alt="Bridge vs Culvert" width="600"/>
+<p align="center">
+  <img src="Images/Bridge%20vs%20Culvert.jpg" alt="Bridge vs Culvert" width="600"/>
+</p>
 
 **Culvert collapses** can cause major safety hazards, disrupt transportation, damage ecosystems, and require costly emergency repairs. Many road washouts during storms are directly linked to culvert blockages, under-sizing, or structural failure.
 
