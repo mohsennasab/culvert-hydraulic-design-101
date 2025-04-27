@@ -26,12 +26,11 @@ Intro to design tools: Gain a basic familiarity with FHWA culvert design guideli
 - They are distinguished from bridges unless their opening width is 10 feet or greater along the roadway centerline. Regardless of structure type, culverts are analyzed using hydraulic design principles to ensure they safely manage flow without disrupting transportation routes.
 
 ### Culvert Design Criteria — Concise Checklist
-## MnDOT Drainage Manual – Chapter 5
+## [MnDOT Drainage Manual – Chapter 5](https://edocs-public.dot.state.mn.us/edocs_public/DMResultSet/download?docId=38670902)
 
-# Key Culvert Design Criteria (Plain-Language Guide)
+# Key Culvert Design Criteria
 
 > *Goal:* understand **what** each criterion means and **why** it matters for flow.  
-> *Audience:* first- or second-year civil/environmental engineering students.
 
 | Criterion | What It Really Means | Simple Example of Its Impact on Flow |
 |-----------|---------------------|--------------------------------------|
@@ -56,7 +55,51 @@ Intro to design tools: Gain a basic familiarity with FHWA culvert design guideli
 * **Outlet velocity** and **site erosion potential** influence whether you add energy dissipation.  
 * **Debris / ice potential** can override hydraulic efficiency—sometimes you upsize or add relief openings just so the system stays open.
 
-**Big takeaway:** each design choice tweaks the flow-vs-headwater curve. Understanding the criteria lets you predict those shifts before you pour concrete.
+## Aquatic Organism Passage (AOP) Criteria
+
+**Goal:** Ensure fish and aquatic life can move freely through the culvert, maintaining natural stream conditions.
+
+**Key Design Practices:**
+- **Match culvert slope** to the natural stream slope.
+- **Align** the culvert with the stream channel (no sharp angles).
+- **Size the width** to be at least the **bankfull width** of the stream.
+- **Maintain flow depth and velocity** similar to the natural channel.
+- **Provide a continuous sediment bed** inside the culvert (gravel, cobble).
+- **Allow sediment and debris transport** through the culvert.
+- **Embed the culvert** below the streambed if possible (for natural bottom).
+
+## Culvert Analysis — Flow Controls
+
+At any discharge a culvert is limited by **one** of two possible control points:
+
+| Control type | What limits the flow? | Typical barrel condition | Key variables |
+|--------------|----------------------|--------------------------|---------------|
+| **Inlet control** | The entrance opening behaves as a weir/orifice and chokes the flow **before** it can fill the barrel. | Barrel runs super-critical and usually *part-full*. | inlet area & shape, edge geometry, headwater depth |
+| **Outlet control** | The downstream water level or barrel losses consume the available head; the barrel can’t pass what the inlet could supply. | Barrel runs sub-critical and often *full*. | tailwater elevation, barrel length/slope/roughness, entrance & exit losses |
+
+---
+
+### Illustrative Scenarios
+
+| Scenario | What you’d see | Why it behaves this way |
+|----------|---------------|-------------------------|
+| **Inlet-control example** | Shallow tailwater + steep pipe. Water shoots out freely; only the inlet submerges. Barrel is part-full. | Head loss is dominated by the entrance; barrel offers little resistance. |
+| **Outlet-control example** | High tailwater or a long, corrugated pipe. Upstream pool rises until the barrel flows full or even backs up. | Energy is lost in friction & exit losses; downstream water “pushes back.” |
+| **Transition with rising flow** | Same culvert starts under inlet control at low Q, then flips to outlet control once the barrel fills. | The controlling section changes when the barrel becomes the hydraulic bottleneck. *(Show this on a performance curve: the inlet-control HW curve intersects the outlet-control HW curve.)* |
+
+---
+
+### Design Check Procedure (FHWA HDS-5)
+
+1. **Compute headwater (HW)** for the design discharge under **both** inlet-control and outlet-control equations/nomographs.  
+2. **Adopt the larger HW** – that’s the “worst-case” (minimum-performance) water level.  
+3. **Compare HW to criteria**  
+   * Keep HW below a set ratio (e.g. HW ≤ 1.5 × diameter) **and** below roadway/shoulder elevations to prevent overtopping.  
+4. **Iterate culvert size or inlet treatment** if limits are exceeded.  
+   * Adding a beveled, flared or wing-walled inlet lowers inlet-control head losses.  
+5. Document the **performance curve** (HW vs. Q) so reviewers can see where control shifts and how HW grows with flood magnitude.
+
+
 
 
 
