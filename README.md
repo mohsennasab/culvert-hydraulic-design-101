@@ -156,20 +156,20 @@ At any discharge a culvert is limited by **one** of two possible control points:
 * **Why it matters:** Pre-computer era = nomographs + trial-and-error; HY-8 now runs the equations instantly, tests multiple pipes, and plots performance curves.  
 * **Demo outline:** enter site data → pick pipe size/shape → view headwater, outlet velocity, and roadway overtopping results → tweak and re-run.  
 
-# HY-8 Demo Inputs Summary
+### HY-8 Demo Inputs Summary
 
-## 📊 Discharge Data
+#### 📊 Discharge Data
 - **Discharge Method:** Minimum, Design, and Maximum
 - **Minimum Flow:** 184.310 cfs
 - **Design Flow:** 243.760 cfs
 - **Maximum Flow:** 312.380 cfs
 
-## 🌊 Tailwater Data
+#### 🌊 Tailwater Data
 - **Channel Type:** Irregular Channel
 - **Channel Slope:** 0.0100 ft/ft
 - **Cross Sections:** provided in the "Demo Data" folder: [Download Cross-Section Data (XS_Data.csv)](Demo%20Data/XS_Data.csv)
 
-## 🛣️ Roadway Data
+#### 🛣️ Roadway Data
 - **Roadway Profile Shape:** Constant Roadway Elevation
 - **First Roadway Station:** 0.000 ft
 - **Crest Length:** 90.000 ft
@@ -177,7 +177,7 @@ At any discharge a culvert is limited by **one** of two possible control points:
 - **Roadway Surface:** Paved
 - **Top Width:** 134.580 ft
 
-## 🕳️ Culvert Data
+#### 🕳️ Culvert Data
 - **Name:** Existing Culvert
 - **Shape:** Circular
 - **Material:** Concrete
@@ -188,7 +188,7 @@ At any discharge a culvert is limited by **one** of two possible control points:
 - **Inlet Configuration:** Square Edge with Headwall (Ke = 0.5)
 - **Inlet Depression:** No
 
-## 📍 Site Data
+#### 📍 Site Data
 - **Data Input Option:** Culvert Invert Data
 - **Inlet Station:** 0.000 ft
 - **Inlet Elevation:** 1019.690 ft
@@ -198,6 +198,30 @@ At any discharge a culvert is limited by **one** of two possible control points:
 - **Computed Culvert Slope:** 0.001405 ft/ft
 
 
+### 🚦 Interpreting Results: Outlet Controlled Culvert
+
+The results show that the culvert is **outlet controlled**.  
+This means the **downstream conditions and the barrel characteristics** (slope, roughness, length, and tailwater) dominate the flow behavior — not just the entrance.
+
+In outlet control, the flow is limited by **energy losses along the barrel** and the **resistance at the outlet**, which is why small changes to the culvert geometry or material can make a big difference.
+
+---
+
+### 🛠️ Engineering Scenarios and Their Potential Impacts
+
+| Design Change | Expected Impact | Why It Works |
+|:--------------|:----------------|:-------------|
+| **Increase culvert diameter** | Lowers headwater elevation and reduces outlet velocity | A bigger opening reduces friction losses and allows more flow |
+| **Use a smoother inlet (e.g., beveled or flared)** | Slight reduction in entrance losses, smoother flow into the barrel | Improves inlet flow even if outlet still controls |
+| **Lower Manning's n (use smoother pipe material)** | Reduces friction losses inside the barrel | Smoother surfaces reduce resistance to flow |
+| **Shorten the barrel length** | Lowers friction loss and lowers headwater elevation | Shorter pipe = less friction = less energy loss |
+| **Steepen the barrel slope** | Increases flow velocity, reduces depth buildup | Gravity does more of the work, pushing water faster |
+| **Add another barrel** | Shares the flow, reducing velocity and headwater rise | Two barrels mean double the area for water passage |
+
+---
+
+> **Key Takeaway:**  
+> As engineers, we have **multiple tools** to improve culvert performance — by changing how easily water enters the culvert, how easily it flows through it, or how efficiently it exits. Every design decision balances cost, constructability, hydraulics, maintenance, and ecological impacts.
 
 
 
