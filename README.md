@@ -140,8 +140,13 @@ At any discharge a culvert is limited by **one** of two possible control points:
   * Plan regular inspections, especially after big storms.  
 
 <p align="center">
-  <img src="Images/Blocked%20Culverts.png" alt="Blocked Culverts" width="700"/>
+  <img src="Images/Blocked%20Culverts.png" alt="Blocked Culverts" width="400"/>
 </p>
+
+<p align="center">
+  <em>Source: <a href="https://www.mdpi.com/2076-3417/11/16/7561" target="_blank">MDPI - Applied Sciences Journal</a></em>
+</p>
+
 
 ---
 
