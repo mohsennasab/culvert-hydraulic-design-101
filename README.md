@@ -1,6 +1,6 @@
-# Fundamentals of Culvert Design
+# Fundamentals of Culvert Design Using HY-8
 
-_A simple, practical introduction to culvert hydraulics, flow types, and design fundamentals with HY-8 examples._
+_An introduction to culvert hydraulics, flow types, and design fundamentals with HY-8 examples._
 
 ---
 
@@ -26,23 +26,23 @@ _A simple, practical introduction to culvert hydraulics, flow types, and design 
 
 ## 📚 Learning Objectives
 
-- Understand basic culvert hydraulics: Identify how culverts convey flow under a road and why headwater (upstream depth) builds up.
-- Distinguish flow control types: Explain inlet control vs. outlet control, including what determines each and how they differ (supercritical vs. subcritical flow, weir/orifice behavior, etc.).
-- Headwater vs. Tailwater influence: Learn how upstream (headwater) and downstream (tailwater) conditions affect culvert capacity and design.
-- Appreciate real-world factors: Acknowledge the importance of culvert maintenance (debris blockage, sedimentation) on performance and safety.
-Intro to design tools: Gain a basic familiarity with FHWA culvert design guidelines and how to use HY-8 software to analyze culvert performance.
+- Understand how culverts convey flow and cause headwater buildup.
+- Differentiate inlet vs. outlet control and their flow behaviors.
+- Recognize the impact of headwater and tailwater on culvert design.
+- Appreciate the role of maintenance (debris, sediment) in culvert performance.
+- Get introduced to FHWA design guidelines and HY-8 software for culvert analysis.
 
 ---
 
 ## 🚀 Introduction to Culverts
 - A culvert is a buried conduit designed to hydraulically convey surface water runoff or streamflow beneath a highway, roadway, railroad, or other embankment. Typically composed of structural materials around their full perimeter, culverts may also include bottomless designs. 
-- They are distinguished from bridges unless their opening width is 10 feet or greater along the roadway centerline. Regardless of structure type, culverts are analyzed using hydraulic design principles to ensure they safely manage flow without disrupting transportation routes.
+- They are distinguished from bridges unless their opening width is **10 feet or greater** along the roadway centerline. Regardless of structure type, culverts are analyzed using hydraulic design principles to ensure they safely manage flow without disrupting transportation routes.
 
 <p align="center">
   <img src="Images/Bridge%20vs%20Culvert.jpg" alt="Bridge vs Culvert" width="600"/>
 </p>
 
-**Culvert collapses** can cause major safety hazards, disrupt transportation, damage ecosystems, and require costly emergency repairs. Many road washouts during storms are directly linked to culvert blockages, under-sizing, or structural failure.
+Culvert collapses can cause major safety hazards, disrupt transportation, damage ecosystems, and require costly emergency repairs. Many road washouts during storms are directly linked to culvert blockages, under-sizing, or structural failure.
 
 ## 🎥 Culvert Failure to Watch"
 
@@ -159,7 +159,39 @@ At any discharge a culvert is limited by **one** of two possible control points:
 
 * **What it is:** Free FHWA program that automates the inlet-control / outlet-control checks you just learned.  
 * **Why it matters:** Pre-computer era = nomographs + trial-and-error; HY-8 now runs the equations instantly, tests multiple pipes, and plots performance curves.  
-* **Demo outline:** enter site data → pick pipe size/shape → view headwater, outlet velocity, and roadway overtopping results → tweak and re-run.  
+* **Demo outline:** enter site data → pick pipe size/shape → view headwater, outlet velocity, and roadway overtopping results → tweak and re-run.
+
+### 🎥 HY-8 Demo Video
+
+Watch a short tutorial where I walk you through modeling a culvert in HY-8 and interpreting its hydraulic behavior.
+
+_(Video coming soon — placeholder here)_
+
+
+### Classroom Problem: Culvert Performance Analysis
+
+A local township has reported frequent roadway overtopping during large storms at a culvert crossing.  
+You have been asked to analyze the existing culvert using HY-8 and propose recommendations if needed.
+
+**Your Tasks:**
+1. **Model the culvert** in HY-8 using the given data (survey data and hydrologu data provided).
+2. **Determine if the existing culvert is inlet-controlled or outlet-controlled** at the design flow.
+3. **Evaluate the headwater elevation** at design flow.  
+   - Is the headwater within acceptable limits compared to the roadway crest elevation?
+4. **If the culvert performance is inadequate**, suggest two design improvements based on hydraulic behavior.
+> **Hint:** Remember to check the culvert performance curves and roadway overtopping report in HY-8 after running your simulation!
+
+### 🌎 Site Overview
+
+<p align="center">
+  <img src="Images/Watershed.jpg" alt="Watershed Overview" width="700">
+</p>
+
+<p align="center">
+  <em>Note: Watershed boundaries are outlined in red, and the culvert location is marked with a black arrow.</em>
+</p>
+
+
 
 ### HY-8 Demo Inputs Summary
 
@@ -225,6 +257,12 @@ In outlet control, the flow is limited by **energy losses along the barrel** and
 > **Key Takeaway:**  
 > As engineers, we have **multiple tools** to improve culvert performance — by changing how easily water enters the culvert, how easily it flows through it, or how efficiently it exits. Every design decision balances cost, constructability, hydraulics, maintenance, and ecological impacts.
 
+## Demo Video:
+
+Watch the HY-8 tutorial in which I walk you through how you can model a culvert and understand its hydraulic behavior.  
+
+placeholder for the video here.
+
 ## 🌿 Ecological Culvert Design (Bonus)
 
 **Purpose:**  
@@ -257,8 +295,6 @@ The *Culvert Design Guidelines for Ecological Function* developed by the U.S. Fi
 > **Takeaway:**  
 > A well-designed culvert acts like a **continuation of the stream**, not just a water pipe — balancing **engineering** and **ecology** together.
 
-
-## 📚 References
 
 ## 📚 References
 
