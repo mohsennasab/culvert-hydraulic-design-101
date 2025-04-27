@@ -150,11 +150,54 @@ At any discharge a culvert is limited by **one** of two possible control points:
 
 ---
 
-## 💻 HY-8 Software Snapshot
+## 💻 HY-8 Software
 
 * **What it is:** Free FHWA program that automates the inlet-control / outlet-control checks you just learned.  
 * **Why it matters:** Pre-computer era = nomographs + trial-and-error; HY-8 now runs the equations instantly, tests multiple pipes, and plots performance curves.  
 * **Demo outline:** enter site data → pick pipe size/shape → view headwater, outlet velocity, and roadway overtopping results → tweak and re-run.  
+
+# HY-8 Demo Inputs Summary
+
+## 📊 Discharge Data
+- **Discharge Method:** Minimum, Design, and Maximum
+- **Minimum Flow:** 184.310 cfs
+- **Design Flow:** 243.760 cfs
+- **Maximum Flow:** 312.380 cfs
+
+## 🌊 Tailwater Data
+- **Channel Type:** Irregular Channel
+- **Channel Slope:** 0.0100 ft/ft
+- **Cross Sections:** provided in the "Demo Data" folder: [Download Cross-Section Data (XS_Data.csv)](Demo%20Data/XS_Data.csv)
+
+## 🛣️ Roadway Data
+- **Roadway Profile Shape:** Constant Roadway Elevation
+- **First Roadway Station:** 0.000 ft
+- **Crest Length:** 90.000 ft
+- **Crest Elevation:** 1025.160 ft
+- **Roadway Surface:** Paved
+- **Top Width:** 134.580 ft
+
+## 🕳️ Culvert Data
+- **Name:** Existing Culvert
+- **Shape:** Circular
+- **Material:** Concrete
+- **Diameter:** 2.5 ft
+- **Embedment Depth:** 0.0 in
+- **Manning’s n:** 0.012
+- **Culvert Type:** Straight
+- **Inlet Configuration:** Square Edge with Headwall (Ke = 0.5)
+- **Inlet Depression:** No
+
+## 📍 Site Data
+- **Data Input Option:** Culvert Invert Data
+- **Inlet Station:** 0.000 ft
+- **Inlet Elevation:** 1019.690 ft
+- **Outlet Station:** 163.751 ft
+- **Outlet Elevation:** 1019.460 ft
+- **Number of Barrels:** 1
+- **Computed Culvert Slope:** 0.001405 ft/ft
+
+
 
 
 
