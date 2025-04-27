@@ -124,7 +124,6 @@ At any discharge a culvert is limited by **one** of two possible control points:
 
 <p align="center">
   👉 [Click to watch: *Understanding Inlet and Outlet Control in Culverts (Short FHWA Summary)*](https://youtu.be/lbElfCcSknU?si=zLASZHqNI9iKuRhx)
-</p>
 
 ---
 
