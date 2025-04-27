@@ -3,10 +3,24 @@
 _A simple, practical introduction to culvert hydraulics, flow types, and design fundamentals with HY-8 examples._
 
 ---
-**Mohsen Tahmasebi Nasab, PhD**  
-- 🌐 [Website](https://www.hydromohsen.com/)  
-- 💼 [LinkedIn](https://www.linkedin.com/in/hydromohsen/)  
-- 📺 [YouTube Channel](https://www.youtube.com/@HydroMohsen)
+
+## 👤 About the Author
+- [Website](https://mohsentahmasebi.com)
+- [LinkedIn](https://linkedin.com/in/mohsentahmasebinasab)
+- [YouTube](https://www.youtube.com/@mohsentahmasebinasab)
+
+---
+
+## 📚 Table of Contents
+- [Learning Objectives](#learning-objectives)
+- [Introduction to Culverts](#introduction-to-culverts)
+- [Culvert Design Criteria](#culvert-design-criteria)
+- [Aquatic Organism Passage (AOP)](#aquatic-organism-passage-aop)
+- [Flow Controls: Inlet vs Outlet](#flow-controls-inlet-vs-outlet)
+- [Maintenance and Real-World Issues](#maintenance-and-real-world-issues)
+- [HY-8 Software and Demo](#hy-8-software-and-demo)
+- [Ecological Culvert Design (Bonus)](#ecological-culvert-design-bonus)
+- [References](#references)
 
 ---
 
@@ -18,7 +32,9 @@ _A simple, practical introduction to culvert hydraulics, flow types, and design 
 - Appreciate real-world factors: Acknowledge the importance of culvert maintenance (debris blockage, sedimentation) on performance and safety.
 Intro to design tools: Gain a basic familiarity with FHWA culvert design guidelines and how to use HY-8 software to analyze culvert performance.
 
-## 1. Introduction to Culverts
+---
+
+## 🚀 Introduction to Culverts
 - A culvert is a buried conduit designed to hydraulically convey surface water runoff or streamflow beneath a highway, roadway, railroad, or other embankment. Typically composed of structural materials around their full perimeter, culverts may also include bottomless designs. 
 - They are distinguished from bridges unless their opening width is 10 feet or greater along the roadway centerline. Regardless of structure type, culverts are analyzed using hydraulic design principles to ensure they safely manage flow without disrupting transportation routes.
 
@@ -28,15 +44,13 @@ Intro to design tools: Gain a basic familiarity with FHWA culvert design guideli
 
 **Culvert collapses** can cause major safety hazards, disrupt transportation, damage ecosystems, and require costly emergency repairs. Many road washouts during storms are directly linked to culvert blockages, under-sizing, or structural failure.
 
----
 ## 🎥 Culvert Failure to Watch"
 
 - **"Culvert Failure - Road Washout "** (YouTube):  
   [Watch Here](https://youtube.com/shorts/J7mJAjFQG8Y?si=I3MZugXmWgXUVPAu)  
   *Real footage of road collapsing due to culvert failures during floods.*
----
 
-## Culvert Design Criteria — Concise Checklist
+## 📋 Culvert Design Criteria
 
 > *Goal:* understand **what** each criterion means and **why** it matters for flow.  
 
@@ -54,7 +68,6 @@ Intro to design tools: Gain a basic familiarity with FHWA culvert design guideli
 | **Outlet Protection** | Measures (riprap, stilling basins) that prevent scour where water exits. | Without protection, a culvert that empties onto bare sand forms a plunge pool and undermines its own outlet. Add riprap: the rock breaks the jet and protects the bank. |
 | **Site Factors (Alignment, Debris, Ice)** | Placement in plan/profile, cover depth, and local debris/ice conditions. | If you skew the culvert across the channel, flow makes a bend, drops sediment, and capacity falls over time. Aligning with the natural channel keeps flow smooth and reduces clogging. Adding a trash rack upstream stops big logs but needs maintenance. |
 
----
 
 ### How These Criteria Interact
 
@@ -63,7 +76,7 @@ Intro to design tools: Gain a basic familiarity with FHWA culvert design guideli
 * **Outlet velocity** and **site erosion potential** influence whether you add energy dissipation.  
 * **Debris / ice potential** can override hydraulic efficiency—sometimes you upsize or add relief openings just so the system stays open.
 
-## Aquatic Organism Passage (AOP) Criteria
+## 🐟 Aquatic Organism Passage (AOP)
 
 **Goal:** Ensure fish and aquatic life can move freely through the culvert, maintaining natural stream conditions.
 
@@ -76,7 +89,7 @@ Intro to design tools: Gain a basic familiarity with FHWA culvert design guideli
 - **Allow sediment and debris transport** through the culvert.
 - **Embed the culvert** below the streambed if possible (for natural bottom).
 
-## Culvert Analysis — Flow Controls
+## 🚦 Flow Controls: Inlet vs Outlet
 
 At any discharge a culvert is limited by **one** of two possible control points:
 
@@ -101,13 +114,11 @@ At any discharge a culvert is limited by **one** of two possible control points:
 - ➔ *Outlet control = the whole journey (hose friction + exit conditions) limits the flow.*
 - **Real-world feel:** Running on a treadmill with strong wind blowing against you — it’s not just starting that’s hard, it’s the whole trip!
 
----
 
 ### 📝 Quick Takeaway:
 - **Inlet control:** entrance matters most.  
 - **Outlet control:** barrel, roughness, tailwater, and friction matter most.
 
----
 
 ### Illustrative Scenarios
 
@@ -125,12 +136,8 @@ At any discharge a culvert is limited by **one** of two possible control points:
 <p align="center">
   👉 [Click to watch: *Understanding Inlet and Outlet Control in Culverts (Short FHWA Summary)*](https://youtu.be/lbElfCcSknU?si=zLASZHqNI9iKuRhx)
 
----
 
-
-
-
-## 🚧 Maintenance & Real-World Issues
+## 🛠️ Maintenance and Real-World Issues
 
 * **Design ≠ Done.** Culverts must be inspected and cleaned; debris, sediment—or even beaver dams—can halve the effective opening or block it entirely.  
 * **Analogy:** A leaf-stuffed funnel: pour water in and it backs up, then spills everywhere. A culvert inlet clogged with sticks does the same—water ponds and can overtop the road.  
@@ -148,9 +155,7 @@ At any discharge a culvert is limited by **one** of two possible control points:
 </p>
 
 
----
-
-## 💻 HY-8 Software
+## 💻 HY-8 Software and Demo
 
 * **What it is:** Free FHWA program that automates the inlet-control / outlet-control checks you just learned.  
 * **Why it matters:** Pre-computer era = nomographs + trial-and-error; HY-8 now runs the equations instantly, tests multiple pipes, and plots performance curves.  
@@ -205,7 +210,6 @@ This means the **downstream conditions and the barrel characteristics** (slope, 
 
 In outlet control, the flow is limited by **energy losses along the barrel** and the **resistance at the outlet**, which is why small changes to the culvert geometry or material can make a big difference.
 
----
 
 ### 🛠️ Engineering Scenarios and Their Potential Impacts
 
@@ -218,12 +222,10 @@ In outlet control, the flow is limited by **energy losses along the barrel** and
 | **Steepen the barrel slope** | Increases flow velocity, reduces depth buildup | Gravity does more of the work, pushing water faster |
 | **Add another barrel** | Shares the flow, reducing velocity and headwater rise | Two barrels mean double the area for water passage |
 
----
-
 > **Key Takeaway:**  
 > As engineers, we have **multiple tools** to improve culvert performance — by changing how easily water enters the culvert, how easily it flows through it, or how efficiently it exits. Every design decision balances cost, constructability, hydraulics, maintenance, and ecological impacts.
 
-## 🌿 Bonus: Culvert Design for Ecological Function
+## 🌿 Ecological Culvert Design (Bonus)
 
 **Purpose:**  
 Culvert design is not just about hydraulics — it’s also about **preserving ecosystems**.  
@@ -248,7 +250,6 @@ The *Culvert Design Guidelines for Ecological Function* developed by the U.S. Fi
 - **Prioritize long-term function:**  
   - Design for future conditions (like larger floods or shifting channels) to avoid needing constant maintenance.
 
----
 
 🔗 Learn more here:  
 [*Culvert Design Guidelines for Ecological Function* - U.S. Fish and Wildlife Service](https://www.fws.gov/alaska-culvert-design-guidelines)
@@ -270,7 +271,6 @@ The *Culvert Design Guidelines for Ecological Function* developed by the U.S. Fi
 3. **Culvert Design Guidelines for Ecological Function.**  
    *Stream Simulation: An Ecological Approach to Culvert Design.*  
    U.S. Forest Service, National Technology & Development Program, Publication No. 0877 1801, 2008.
-
 
 ---
 
