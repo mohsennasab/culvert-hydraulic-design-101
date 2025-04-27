@@ -28,22 +28,36 @@ Intro to design tools: Gain a basic familiarity with FHWA culvert design guideli
 ### Culvert Design Criteria — Concise Checklist
 ## MnDOT Drainage Manual – Chapter 5
 
-| # | Category | Key Requirements | Notes / Limits |
-|---|----------|------------------|----------------|
-| 1 | **Design Frequency** | *Minor culvert* (≤ 48 in dia./span): 50-yr (2 % exceedance).<br>*Entrance* culvert: 10-yr.<br>*Local/side road* (AADT < 1500): may use 25-yr.<br>*Major culvert* (> 48 in): evaluate 2- to 500-yr (or overtopping flood) with a formal **Risk Assessment**; minimum overtopping frequency depends on AADT (2- to 50-yr). | Sizing is iterative; start with existing pipe where possible. |
-| 2 | **Allowable Headwater (HW)** | Center-line culverts: ≥ 1 ft freeboard below shoulder P.I.<br>Entrance culverts: no overtopping at design event nor roadway flooding at minimum overtopping event.<br>If HW / D > 1.5 → check velocity, erosion, ponding duration. | Must avoid damage to roadway, properties, traffic, culvert, and meet regulatory stage-increase limits. |
-| 3 | **Upstream Storage** | If using embankment storage to reduce peak flow, verify HW criteria and embankment integrity; limit pond area/duration; secure ROW/easements; plan sediment maintenance. |  |
-| 4 | **Tailwater (TW)** | Compute TW for design & check storms via channel back-water analysis or critical-depth approximation: TW ≈ (d<sub>c</sub> + D) / 2 for free outfall.<br>Account for downstream controls, adjacent water bodies, joint-probability floods. |  |
-| 5 | **Outlet Velocity & Protection** | Target ≤ 6 fps (vegetation or no protection).<br>Provide riprap apron per Table 5-5 or energy dissipator if velocity > limits.<br>Maintain ≥ 2.5 fps (2-yr flow) for self-cleaning of minor culverts (unless AOP). |  |
-| 6 | **Minimum Size** | Interstate / trunk highway: ≥ 24 in.<br>CSAH & local center-line: ≥ 18 in.<br>Ramps / loops / rest areas: ≥ 18 in.<br>Side culverts, median drains, entrances, non-roadway: 15–18 in (see Table 5-3). | Chosen to reduce clogging and maintenance. |
-| 7 | **Shape & Configuration** | Common shapes—circular, box, arch / pipe-arch.<br>Select for cost, cover, hydraulic limits, environmental needs.<br>Multi-barrel limit: ≤ 3 barrels or 48 ft total span unless deeper analysis/CFD justifies more. | Fit barrels to channel; avoid excessive spacing; recess one barrel for low-flow/AOP if needed. |
-| 8 | **Material & Roughness** | Choose for structural stability, durability, hydraulic capacity, corrosion/abrasion resistance.<br>Use MnDOT design Manning’s *n* (e.g., 0.012 for RCP; 0.024 for 2 × ½ CMP). | Document choice on culvert design form. |
-| 9 | **End Sections / Inlets** | Provide apron, headwall, beveled or improved inlets as required.<br>Follow entrance-loss coefficients (*k*<sub>e</sub>) in Tables 5-4 & 5-6.<br>Install safety aprons / grates when ends lie inside the roadside clear zone. | Anchor flexible pipes against flotation; evaluate piping/buoyancy where HW high. |
-|10 | **Outlet Protection** | Apply riprap class & filter per outlet velocity (Table 5-5) or select dissipator (ring, SAF basin, impact basin, etc.). |  |
-|11 | **Site Criteria** | Align culvert with natural channel; keep ends outside clear zone or protect with safety treatments.<br>Respect min/max cover; assess debris & ice potential; provide relief openings or racks as needed.<br>Plan for multiple-use culverts and AOP (bankfull width, embedded barrel) when required. |  |
-|12 | **Analysis Tools** | Always check both inlet & outlet control; develop rating/performance curves for major culverts.<br>Tools: HY-8, HEC-RAS, nomographs, hand calcs. |  |
+# Key Culvert Design Criteria (Plain-Language Guide)
 
-> **Rule of Thumb:** Size for the higher HW of inlet vs. outlet control, keep the road dry at design flow, manage velocities and blockage risk, and match culvert geometry to site, regulatory, and maintenance needs.
+> *Goal:* understand **what** each criterion means and **why** it matters for flow.  
+> *Audience:* first- or second-year civil/environmental engineering students.
+
+| Criterion | What It Really Means | Simple Example of Its Impact on Flow |
+|-----------|---------------------|--------------------------------------|
+| **Design Frequency** | The size of storm (recurrence interval) a culvert is expected to handle without the road flooding—e.g., a “25-year storm.” | If you design for only a 10-year storm but a 25-year storm arrives, the culvert may be undersized and water could back up over the road. Designing for a rarer (bigger) storm means a larger (more expensive) culvert but less chance of overtopping. |
+| **Allowable Headwater (HW)** | How high water is allowed to pond upstream of the culvert during the design storm. HW supplies the energy (pressure) to push flow through. | Raise the road, and you can tolerate a deeper pond (higher HW); the same culvert then passes more flow. Lower HW limits force you to pick a larger culvert so water doesn’t back up as much. |
+| **Tailwater (TW)** | The water depth just downstream of the culvert. TW can act like “back-pressure” on the barrel. | If a culvert outlets into a deep river pool (high TW), the pipe may run full and switch to **outlet control**, needing more headwater to pass the same flow. With low TW (free outfall) the pipe can run partly full and often needs **less** headwater. |
+| **Upstream Storage** | Any temporary ponding area upstream that can store runoff and reduce peak flow through the culvert. | A farm field depresses behind the road; by *allowing* some storage, you might keep the culvert smaller. But longer ponding could harm crops or the embankment. |
+| **Outlet Velocity** | How fast water shoots out of the culvert. Velocities that are too high can erode the channel. | A steep, smooth pipe may discharge at 12 ft/s and scour the ditch. Adding a rougher material or flared outlet slows water, or you install riprap to absorb the energy. |
+| **Minimum Size** | A practical lower limit so debris, ice, or sediment won’t clog the pipe. | A 6-inch pipe under a driveway will fill with leaves every fall; a 15-inch pipe is less likely to block and easier to flush. |
+| **Shape / Configuration** | Choosing between circular, box, or arch barrels, and whether to use one or several. Shape affects capacity, cover requirements, and habitat. | A *box* culvert gives more width for shallow flows and fish passage, but a *round* pipe of the same area usually costs less. Multiple smaller pipes may carry less flow than one large box because debris can settle between them. |
+| **Material & Roughness** | Pipe material (concrete, corrugated steel, plastic) sets structural life **and** hydraulic roughness (Manning’s *n*). Rougher pipes need more HW for the same flow. | Swap a smooth HDPE pipe (low *n*) for corrugated metal (higher *n*): flow capacity drops, headwater rises, or you must upsize the metal pipe. |
+| **End Sections / Inlets** | The entrance shape—square, beveled, flared—controls how easily water gets in. | A beveled/​flared inlet acts like a funnel: for the same headwater it passes more flow than a sharp-edged pipe. Great when inlet control governs. |
+| **Outlet Protection** | Measures (riprap, stilling basins) that prevent scour where water exits. | Without protection, a culvert that empties onto bare sand forms a plunge pool and undermines its own outlet. Add riprap: the rock breaks the jet and protects the bank. |
+| **Site Factors (Alignment, Debris, Ice)** | Placement in plan/profile, cover depth, and local debris/ice conditions. | If you skew the culvert across the channel, flow makes a bend, drops sediment, and capacity falls over time. Aligning with the natural channel keeps flow smooth and reduces clogging. Adding a trash rack upstream stops big logs but needs maintenance. |
+
+---
+
+### How These Criteria Interact
+
+* **Headwater, tailwater, shape, and roughness** together decide whether the culvert runs under **inlet control** (entrance is the bottleneck) or **outlet control** (barrel + tailwater are the bottleneck).  
+* **Design frequency** and **allowable HW** set the target flow you must convey—changing either forces a change in size or number of barrels.  
+* **Outlet velocity** and **site erosion potential** influence whether you add energy dissipation.  
+* **Debris / ice potential** can override hydraulic efficiency—sometimes you upsize or add relief openings just so the system stays open.
+
+**Big takeaway:** each design choice tweaks the flow-vs-headwater curve. Understanding the criteria lets you predict those shifts before you pour concrete.
+
 
 
 ### 3. Flow Control Types and Transitions
