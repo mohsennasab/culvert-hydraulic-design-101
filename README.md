@@ -37,9 +37,6 @@ Intro to design tools: Gain a basic familiarity with FHWA culvert design guideli
 ---
 
 ## Culvert Design Criteria — Concise Checklist
-### [MnDOT Drainage Manual – Chapter 5](https://edocs-public.dot.state.mn.us/edocs_public/DMResultSet/download?docId=38670902)
-
-# Key Culvert Design Criteria
 
 > *Goal:* understand **what** each criterion means and **why** it matters for flow.  
 
@@ -119,6 +116,15 @@ At any discharge a culvert is limited by **one** of two possible control points:
 | **Inlet-control example** | Shallow tailwater + steep pipe. Water shoots out freely; only the inlet submerges. Barrel is part-full. | Head loss is dominated by the entrance; barrel offers little resistance. |
 | **Outlet-control example** | High tailwater or a long, corrugated pipe. Upstream pool rises until the barrel flows full or even backs up. | Energy is lost in friction & exit losses; downstream water “pushes back.” |
 
+<p align="center">
+  <a href="https://youtu.be/lbElfCcSknU?si=zLASZHqNI9iKuRhx" target="_blank">
+    <img src="https://img.youtube.com/vi/lbElfCcSknU/0.jpg" alt="Understanding Inlet and Outlet Control in Culverts" width="300"/>
+  </a>
+</p>
+
+<p align="center">
+  👉 [Click to watch: *Understanding Inlet and Outlet Control in Culverts (Short FHWA Summary)*](https://youtu.be/lbElfCcSknU?si=zLASZHqNI9iKuRhx)
+</p>
 
 ---
 
