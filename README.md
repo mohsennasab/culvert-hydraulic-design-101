@@ -327,7 +327,16 @@ The *Culvert Design Guidelines for Ecological Function* developed by the U.S. Fi
    Accessed April 27, 2025.  
    [https://www.dnr.state.mn.us/eco/streamhab/geomorphology/index.html](https://www.dnr.state.mn.us/eco/streamhab/geomorphology/index.html)
 
-
-
 ---
 
+## 🤝 Classroom Use and Collaboration Invitation
+
+Feel free to use, adapt, and build upon these materials for your own classroom, workshops, or learning sessions!  
+This project is intended as a foundation to make culvert hydraulics more accessible, engaging, and visual for students.
+
+If you use or adapt this content in your class, I'd love to hear how it went!  
+Feel free to share feedback, suggestions, or new ideas — collaboration and improvement are always welcome.
+
+> 📩 You can reach me through [LinkedIn](https://linkedin.com/in/mohsentahmasebinasab).
+
+---
