@@ -14,7 +14,6 @@ _A simple, practical introduction to culvert hydraulics, flow types, and design 
 
 - Understand basic culvert hydraulics: Identify how culverts convey flow under a road and why headwater (upstream depth) builds up.
 - Distinguish flow control types: Explain inlet control vs. outlet control, including what determines each and how they differ (supercritical vs. subcritical flow, weir/orifice behavior, etc.).
-- Recognize flow regimes: Describe scenarios of unsubmerged vs. submerged flow through a culvert and the role of critical flow (critical depth) in transitions.
 - Headwater vs. Tailwater influence: Learn how upstream (headwater) and downstream (tailwater) conditions affect culvert capacity and design.
 - Appreciate real-world factors: Acknowledge the importance of culvert maintenance (debris blockage, sedimentation) on performance and safety.
 Intro to design tools: Gain a basic familiarity with FHWA culvert design guidelines and how to use HY-8 software to analyze culvert performance.
@@ -22,6 +21,8 @@ Intro to design tools: Gain a basic familiarity with FHWA culvert design guideli
 ## 1. Introduction to Culverts
 - A culvert is a buried conduit designed to hydraulically convey surface water runoff or streamflow beneath a highway, roadway, railroad, or other embankment. Typically composed of structural materials around their full perimeter, culverts may also include bottomless designs. 
 - They are distinguished from bridges unless their opening width is 10 feet or greater along the roadway centerline. Regardless of structure type, culverts are analyzed using hydraulic design principles to ensure they safely manage flow without disrupting transportation routes.
+
+![Bridge vs Culvert](Images/Bridge%20vs%20Culvert.jpg)
 
 **Culvert collapses** can cause major safety hazards, disrupt transportation, damage ecosystems, and require costly emergency repairs. Many road washouts during storms are directly linked to culvert blockages, under-sizing, or structural failure.
 
@@ -85,6 +86,28 @@ At any discharge a culvert is limited by **one** of two possible control points:
 | **Inlet control** | The entrance opening behaves as a weir/orifice and chokes the flow **before** it can fill the barrel. | Barrel runs super-critical and usually *part-full*. | inlet area & shape, edge geometry, headwater depth |
 | **Outlet control** | The downstream water level or barrel losses consume the available head; the barrel can’t pass what the inlet could supply. | Barrel runs sub-critical and often *full*. | tailwater elevation, barrel length/slope/roughness, entrance & exit losses |
 
+### Understanding Inlet and Outlet Control (Simple Examples)
+
+**Inlet Control:**  
+- Imagine trying to pour water into a small funnel.  
+- The size of the funnel opening limits how much water can get through — **even if the pipe underneath is huge**.
+- It doesn’t matter how long or rough the pipe is; **the entrance itself** controls the flow.  
+- ➔ *Inlet control = the opening is the bottleneck.*  
+- **Real-world feel:** Small door on a big hallway. No matter how wide the hall, you can only get in as fast as the door lets you.
+
+**Outlet Control:**  
+- Now imagine water flowing through a long, rough garden hose.  
+- The water easily gets into the hose, but the hose is so long and rough that **friction slows it down**.  
+- Plus, if the hose is pointed into a bucket already full of water, the bucket’s water level **pushes back** and makes it harder for water to escape.
+- ➔ *Outlet control = the whole journey (hose friction + exit conditions) limits the flow.*
+- **Real-world feel:** Running on a treadmill with strong wind blowing against you — it’s not just starting that’s hard, it’s the whole trip!
+
+---
+
+### 📝 Quick Takeaway:
+- **Inlet control:** entrance matters most.  
+- **Outlet control:** barrel, roughness, tailwater, and friction matter most.
+
 ---
 
 ### Illustrative Scenarios
@@ -116,6 +139,23 @@ At any discharge a culvert is limited by **one** of two possible control points:
 * **What it is:** Free FHWA program that automates the inlet-control / outlet-control checks you just learned.  
 * **Why it matters:** Pre-computer era = nomographs + trial-and-error; HY-8 now runs the equations instantly, tests multiple pipes, and plots performance curves.  
 * **Demo outline:** enter site data → pick pipe size/shape → view headwater, outlet velocity, and roadway overtopping results → tweak and re-run.  
+
+
+
+## 📚 References
+
+1. **Minnesota Department of Transportation (MnDOT).**  
+   *Drainage Manual: Chapter 5 – Culvert Design.*  
+   Minnesota Department of Transportation, 2024.  
+
+2. **Federal Highway Administration (FHWA).**  
+   *Hydraulic Design Series No. 5 (HDS-5): Hydraulic Design of Highway Culverts.*  
+   FHWA Publication No. FHWA-HIF-12-026, U.S. Department of Transportation, 2012.  
+
+3. **Culvert Design Guidelines for Ecological Function.**  
+   *Stream Simulation: An Ecological Approach to Culvert Design.*  
+   U.S. Forest Service, National Technology & Development Program, Publication No. 0877 1801, 2008.
+
 
 ---
 
