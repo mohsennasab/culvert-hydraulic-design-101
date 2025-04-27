@@ -223,6 +223,38 @@ In outlet control, the flow is limited by **energy losses along the barrel** and
 > **Key Takeaway:**  
 > As engineers, we have **multiple tools** to improve culvert performance — by changing how easily water enters the culvert, how easily it flows through it, or how efficiently it exits. Every design decision balances cost, constructability, hydraulics, maintenance, and ecological impacts.
 
+## 🌿 Bonus: Culvert Design for Ecological Function
+
+**Purpose:**  
+Culvert design is not just about hydraulics — it’s also about **preserving ecosystems**.  
+The *Culvert Design Guidelines for Ecological Function* developed by the U.S. Fish and Wildlife Service emphasize building culverts that **allow natural stream processes and aquatic life movement** to continue uninterrupted.
+
+**Core Principles:**
+
+- **Mimic natural stream conditions:**  
+  - Culverts should match the natural channel's width, slope, and substrate as closely as possible.
+  - Goal: Make the culvert "invisible" to fish and other organisms moving through it.
+  
+- **Maintain connectivity:**  
+  - Culverts should not block upstream or downstream migration of aquatic species during any season.
+  - Maintain flow depth, low-flow pathways, and minimize turbulence inside the culvert.
+
+- **Embed or Sump Culverts:**  
+  - Design culverts slightly *below* the streambed (sumped) to allow natural sediment to accumulate, forming a natural bottom.
+
+- **Handle a Range of Flows:**  
+  - Culverts must accommodate low, moderate, and flood flows **without becoming barriers**.
+
+- **Prioritize long-term function:**  
+  - Design for future conditions (like larger floods or shifting channels) to avoid needing constant maintenance.
+
+---
+
+🔗 Learn more here:  
+[*Culvert Design Guidelines for Ecological Function* - U.S. Fish and Wildlife Service](https://www.fws.gov/alaska-culvert-design-guidelines)
+
+> **Takeaway:**  
+> A well-designed culvert acts like a **continuation of the stream**, not just a water pipe — balancing **engineering** and **ecology** together.
 
 
 ## 📚 References
