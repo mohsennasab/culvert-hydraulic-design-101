@@ -85,62 +85,29 @@ At any discharge a culvert is limited by **one** of two possible control points:
 |----------|---------------|-------------------------|
 | **Inlet-control example** | Shallow tailwater + steep pipe. Water shoots out freely; only the inlet submerges. Barrel is part-full. | Head loss is dominated by the entrance; barrel offers little resistance. |
 | **Outlet-control example** | High tailwater or a long, corrugated pipe. Upstream pool rises until the barrel flows full or even backs up. | Energy is lost in friction & exit losses; downstream water “pushes back.” |
-| **Transition with rising flow** | Same culvert starts under inlet control at low Q, then flips to outlet control once the barrel fills. | The controlling section changes when the barrel becomes the hydraulic bottleneck. *(Show this on a performance curve: the inlet-control HW curve intersects the outlet-control HW curve.)* |
+
 
 ---
 
-### Design Check Procedure (FHWA HDS-5)
-
-1. **Compute headwater (HW)** for the design discharge under **both** inlet-control and outlet-control equations/nomographs.  
-2. **Adopt the larger HW** – that’s the “worst-case” (minimum-performance) water level.  
-3. **Compare HW to criteria**  
-   * Keep HW below a set ratio (e.g. HW ≤ 1.5 × diameter) **and** below roadway/shoulder elevations to prevent overtopping.  
-4. **Iterate culvert size or inlet treatment** if limits are exceeded.  
-   * Adding a beveled, flared or wing-walled inlet lowers inlet-control head losses.  
-5. Document the **performance curve** (HW vs. Q) so reviewers can see where control shifts and how HW grows with flood magnitude.
 
 
 
+## 🚧 Maintenance & Real-World Issues
 
-
-### 3. Flow Control Types and Transitions
-- How flow transitions from inlet control to outlet control
-- Critical depth and flow regime shifts
-- Visual performance curves (HW vs. Q) — when does control change?
-
-### 4. Design Criteria Overview (Based on MnDOT/FHWA Standards)
-- Design frequency selection (minor vs. major culverts)
-- Allowable headwater requirements and roadway freeboard
-- Tailwater estimation and its impact on flow
-- Outlet velocity targets and protection strategies
-- Minimum culvert sizing guidelines
-
-### 5. Real-World Considerations
-- Importance of culvert maintenance (debris, sediment, ice risks)
-- Examples of culvert failures due to blockage
-- Practical design adjustments for resilience
-
-### 6. Introduction to HY-8 Software
-- Overview of HY-8 and its use in culvert design
-- Input parameters (culvert geometry, materials, slopes, discharges)
-- How HY-8 determines inlet vs. outlet control automatically
-
-### 7. HY-8 Live Example Walkthrough
-- Simple culvert setup (circular pipe, given slope and flow)
-- Explore impacts of tailwater, inlet changes, and larger flows
-- How to read and interpret HY-8 output reports
-
-### 8. Summary and Key Takeaways
-- Always check both inlet and outlet control
-- Headwater and tailwater both matter in design
-- Maintenance is essential for culvert performance
-- HY-8 simplifies analysis but good engineering judgment is critical
+* **Design ≠ Done.** Culverts must be inspected and cleaned; debris, sediment—or even beaver dams—can halve the effective opening or block it entirely.  
+* **Analogy:** A leaf-stuffed funnel: pour water in and it backs up, then spills everywhere. A culvert inlet clogged with sticks does the same—water ponds and can overtop the road.  
+* **Real case (Oregon, Jan 2012):** Storm-driven mud blocked highway culverts, eroded the shoulder, and flooded the roadway. Field studies show small culverts (< 6 m span) are most likely to plug during major storms, leading to washouts.  
+* **Design & O&M takeaway:**  
+  * Include a debris allowance or trash rack where clogging is likely.  
+  * Plan regular inspections, especially after big storms.  
 
 ---
 
-## 📌 Optional Additions if Time Allows
-- Aquatic Organism Passage (AOP) design considerations
-- Use of performance curves for flood resiliency planning
-- Brief mention of advanced modeling (HEC-RAS, flood routing)
+## 💻 HY-8 Software Snapshot
+
+* **What it is:** Free FHWA program that automates the inlet-control / outlet-control checks you just learned.  
+* **Why it matters:** Pre-computer era = nomographs + trial-and-error; HY-8 now runs the equations instantly, tests multiple pipes, and plots performance curves.  
+* **Demo outline:** enter site data → pick pipe size/shape → view headwater, outlet velocity, and roadway overtopping results → tweak and re-run.  
 
 ---
+
