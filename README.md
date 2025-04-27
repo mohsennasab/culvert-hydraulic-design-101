@@ -5,9 +5,9 @@ _An introduction to culvert hydraulics, flow types, and design fundamentals with
 ---
 
 ## 👤 About the Author
-- [Website](https://mohsentahmasebi.com)
-- [LinkedIn](https://linkedin.com/in/mohsentahmasebinasab)
-- [YouTube](https://www.youtube.com/@mohsentahmasebinasab)
+- [Website](https://www.hydromohsen.com/)
+- [LinkedIn](https://linkedin.com/in/hydromohsen)
+- [YouTube](https://www.youtube.com/channel/UCeEOWZIffBSxBmsrPTo0_hg)
 
 ---
 
@@ -337,6 +337,6 @@ This project is intended as a foundation to make culvert hydraulics more accessi
 If you use or adapt this content in your class, I'd love to hear how it went!  
 Feel free to share feedback, suggestions, or new ideas — collaboration and improvement are always welcome.
 
-> 📩 You can reach me through [LinkedIn](https://linkedin.com/in/mohsentahmasebinasab).
+> 📩 You can reach me through [LinkedIn](https://linkedin.com/in/hydromohsen).
 
 ---
