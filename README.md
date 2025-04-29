@@ -1,4 +1,4 @@
-# Fundamentals of Culvert Design Using HY-8
+# Fundamentals of Culvert Hydraulic Design Using HY-8
 
 _An introduction to culvert hydraulics, flow types, and design fundamentals with HY-8 examples._
 
