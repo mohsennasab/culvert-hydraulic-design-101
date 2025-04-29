@@ -44,11 +44,23 @@ _An introduction to culvert hydraulics, flow types, and design fundamentals with
 
 Culvert collapses can cause major safety hazards, disrupt transportation, damage ecosystems, and require costly emergency repairs. Many road washouts during storms are directly linked to culvert blockages, under-sizing, or structural failure.
 
-## 🎥 Culvert Failure to Watch"
+### 🎥 Culvert Failure to Watch"
 
 - **"Culvert Failure - Road Washout "** (YouTube):  
   [Watch Here](https://youtube.com/shorts/J7mJAjFQG8Y?si=I3MZugXmWgXUVPAu)  
   *Real footage of road collapsing due to culvert failures during floods.*
+
+### 🧩 Culvert Terminology Overview
+
+Understanding the key parts of a culvert is essential for effective design and analysis. The diagram below highlights standard terminology used in culvert hydraulics, including components like the inlet, outlet, crown, invert, barrel, and headwalls. Familiarity with these terms will help you interpret design drawings, software inputs, and field data more effectively.
+
+<p align="center">
+  <img src="Images/Culvert.jpg" alt="Labeled diagram of culvert components" width="700">
+</p>
+
+<p align="center">
+  <em>Key culvert components and terminology commonly used in design and modeling.</em>
+</p>
 
 ## 📋 Culvert Design Criteria
 
