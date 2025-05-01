@@ -39,7 +39,7 @@ _An introduction to culvert hydraulics, flow types, and design fundamentals with
 - They are distinguished from bridges unless their opening width is **10 feet or greater** along the roadway centerline. Regardless of structure type, culverts are analyzed using hydraulic design principles to ensure they safely manage flow without disrupting transportation routes.
 
 <p align="center">
-  <img src="Images/Bridge%20vs%20Culvert.jpg" alt="Bridge vs Culvert" width="600"/>
+  <img src="Images/Bridge%20vs%20Culvert.jpg" alt="Bridge vs Culvert" width="500"/>
 </p>
 
 Culvert collapses can cause major safety hazards, disrupt transportation, damage ecosystems, and require costly emergency repairs. Many road washouts during storms are directly linked to culvert blockages, under-sizing, or structural failure.
@@ -95,7 +95,7 @@ Understanding the key parts of a culvert is essential for effective design and a
 **Key Design Practices:**
 - **Match culvert slope** to the natural stream slope.
 - **Align** the culvert with the stream channel (no sharp angles).
-- **Size the width** to be at least the **bankfull width** of the stream.
+- **Size the width** to be at least the bankfull width of the stream.
 - **Maintain flow depth and velocity** similar to the natural channel.
 - **Provide a continuous sediment bed** inside the culvert (gravel, cobble).
 - **Allow sediment and debris transport** through the culvert.
@@ -114,30 +114,21 @@ At any discharge a culvert is limited by **one** of two possible control points:
 
 **Inlet Control:**  
 - Imagine trying to pour water into a small funnel.  
-- The size of the funnel opening limits how much water can get through — **even if the pipe underneath is huge**.
-- It doesn’t matter how long or rough the pipe is; **the entrance itself** controls the flow.  
+- The size of the funnel opening limits how much water can get through — even if the pipe underneath is huge**.
+- It doesn’t matter how long or rough the pipe is; the entrance itself controls the flow.  
 - ➔ *Inlet control = the opening is the bottleneck.*  
-- **Real-world feel:** Small door on a big hallway. No matter how wide the hall, you can only get in as fast as the door lets you.
+
+> **Real-world feel:** Small door on a big hallway. No matter how wide the hall, you can only get in as fast as the door lets you.
 
 **Outlet Control:**  
 - Now imagine water flowing through a long, rough garden hose.  
-- The water easily gets into the hose, but the hose is so long and rough that **friction slows it down**.  
-- Plus, if the hose is pointed into a bucket already full of water, the bucket’s water level **pushes back** and makes it harder for water to escape.
+- The water easily gets into the hose, but the hose is so long and rough that friction slows it down.  
+- Plus, if the hose is pointed into a bucket already full of water, the bucket’s water level pushes back and makes it harder for water to escape.
 - ➔ *Outlet control = the whole journey (hose friction + exit conditions) limits the flow.*
-- **Real-world feel:** Running on a treadmill with strong wind blowing against you — it’s not just starting that’s hard, it’s the whole trip!
+
+> **Real-world feel:** Running on a treadmill with strong wind blowing against you — it’s not just starting that’s hard, it’s the whole trip!
 
 
-### 📝 Quick Takeaway:
-- **Inlet control:** entrance matters most.  
-- **Outlet control:** barrel, roughness, tailwater, and friction matter most.
-
-
-### Illustrative Scenarios
-
-| Scenario | What you’d see | Why it behaves this way |
-|----------|---------------|-------------------------|
-| **Inlet-control example** | Shallow tailwater + steep pipe. Water shoots out freely; only the inlet submerges. Barrel is part-full. | Head loss is dominated by the entrance; barrel offers little resistance. |
-| **Outlet-control example** | High tailwater or a long, corrugated pipe. Upstream pool rises until the barrel flows full or even backs up. | Energy is lost in friction & exit losses; downstream water “pushes back.” |
 
 <p align="center">
   <a href="https://youtu.be/lbElfCcSknU?si=zLASZHqNI9iKuRhx" target="_blank">
@@ -152,8 +143,6 @@ At any discharge a culvert is limited by **one** of two possible control points:
 ## 🛠️ Maintenance and Real-World Issues
 
 * **Design ≠ Done.** Culverts must be inspected and cleaned; debris, sediment—or even beaver dams—can halve the effective opening or block it entirely.  
-* **Analogy:** A leaf-stuffed funnel: pour water in and it backs up, then spills everywhere. A culvert inlet clogged with sticks does the same—water ponds and can overtop the road.  
-* **Real case (Oregon, Jan 2012):** Storm-driven mud blocked highway culverts, eroded the shoulder, and flooded the roadway. Field studies show small culverts (< 6 m span) are most likely to plug during major storms, leading to washouts.  
 * **Design & O&M takeaway:**  
   * Include a debris allowance or trash rack where clogging is likely.  
   * Plan regular inspections, especially after big storms.  
@@ -172,13 +161,6 @@ At any discharge a culvert is limited by **one** of two possible control points:
 * **What it is:** Free FHWA program that automates the inlet-control / outlet-control checks you just learned.  
 * **Why it matters:** Pre-computer era = nomographs + trial-and-error; HY-8 now runs the equations instantly, tests multiple pipes, and plots performance curves.  
 * **Demo outline:** enter site data → pick pipe size/shape → view headwater, outlet velocity, and roadway overtopping results → tweak and re-run.
-
-### 🎥 HY-8 Demo Video
-
-Watch a short tutorial where I walk you through modeling a culvert in HY-8 and interpreting its hydraulic behavior.
-
-_(Video coming soon — placeholder here)_
-
 
 ### Classroom Problem: Culvert Performance Analysis
 
@@ -214,55 +196,50 @@ You have been asked to analyze the existing culvert using HY-8 and propose recom
 </p>
 
 
-### HY-8 Demo Inputs Summary
+### 📋 HY-8 Input Summary Table
 
-#### 📊 Discharge Data
-- **Discharge Method:** Minimum, Design, and Maximum
-- **Minimum Flow:** 184.310 cfs
-- **Design Flow:** 243.760 cfs
-- **Maximum Flow:** 312.380 cfs
+| Category           | Parameter                     | Value                                         |
+|--------------------|-------------------------------|-----------------------------------------------|
+| 📊 Discharge Data  | Discharge Method              | Minimum, Design, and Maximum                  |
+|                    | Minimum Flow                  | 184.310 cfs                                   |
+|                    | Design Flow                   | 243.760 cfs                                   |
+|                    | Maximum Flow                  | 312.380 cfs                                   |
+| 🌊 Tailwater Data  | Channel Type                  | Irregular Channel                             |
+|                    | Channel Slope                 | 0.0100 ft/ft                                  |
+|                    | Cross Sections                | Provided in "Demo Data" folder ([XS_Data.csv](Demo%20Data/XS_Data.csv)) |
+| 🛣️ Roadway Data    | Roadway Profile Shape         | Constant Roadway Elevation                    |
+|                    | First Roadway Station         | 0.000 ft                                      |
+|                    | Crest Length                  | 90.000 ft                                     |
+|                    | Crest Elevation               | 1025.160 ft                                   |
+|                    | Roadway Surface               | Paved                                         |
+|                    | Top Width                     | 134.580 ft                                    |
+| 🕳️ Culvert Data    | Name                          | Existing Culvert                              |
+|                    | Shape                         | Circular                                      |
+|                    | Material                      | Concrete                                      |
+|                    | Diameter                      | 2.5 ft                                        |
+|                    | Embedment Depth               | 0.0 in                                        |
+|                    | Manning’s n                   | 0.012                                         |
+|                    | Culvert Type                  | Straight                                      |
+|                    | Inlet Configuration           | Square Edge with Headwall (Ke = 0.5)          |
+|                    | Inlet Depression              | No                                            |
+| 📍 Site Data       | Data Input Option             | Culvert Invert Data                           |
+|                    | Inlet Station                 | 0.000 ft                                      |
+|                    | Inlet Elevation               | 1019.690 ft                                   |
+|                    | Outlet Station                | 163.751 ft                                    |
+|                    | Outlet Elevation              | 1019.460 ft                                   |
+|                    | Number of Barrels             | 1                                             |
+|                    | Computed Culvert Slope        | 0.001405 ft/ft                                |
 
-#### 🌊 Tailwater Data
-- **Channel Type:** Irregular Channel
-- **Channel Slope:** 0.0100 ft/ft
-- **Cross Sections:** provided in the "Demo Data" folder: [Download Cross-Section Data (XS_Data.csv)](Demo%20Data/XS_Data.csv)
-
-#### 🛣️ Roadway Data
-- **Roadway Profile Shape:** Constant Roadway Elevation
-- **First Roadway Station:** 0.000 ft
-- **Crest Length:** 90.000 ft
-- **Crest Elevation:** 1025.160 ft
-- **Roadway Surface:** Paved
-- **Top Width:** 134.580 ft
-
-#### 🕳️ Culvert Data
-- **Name:** Existing Culvert
-- **Shape:** Circular
-- **Material:** Concrete
-- **Diameter:** 2.5 ft
-- **Embedment Depth:** 0.0 in
-- **Manning’s n:** 0.012
-- **Culvert Type:** Straight
-- **Inlet Configuration:** Square Edge with Headwall (Ke = 0.5)
-- **Inlet Depression:** No
-
-#### 📍 Site Data
-- **Data Input Option:** Culvert Invert Data
-- **Inlet Station:** 0.000 ft
-- **Inlet Elevation:** 1019.690 ft
-- **Outlet Station:** 163.751 ft
-- **Outlet Elevation:** 1019.460 ft
-- **Number of Barrels:** 1
-- **Computed Culvert Slope:** 0.001405 ft/ft
 
 
 ### 🚦 Interpreting Results: Outlet Controlled Culvert
 
 The results show that the culvert is **outlet controlled**.  
-This means the **downstream conditions and the barrel characteristics** (slope, roughness, length, and tailwater) dominate the flow behavior — not just the entrance.
+This means the downstream conditions and the barrel characteristics (slope, roughness, length, and tailwater) dominate the flow behavior — not just the entrance.
 
-In outlet control, the flow is limited by **energy losses along the barrel** and the **resistance at the outlet**, which is why small changes to the culvert geometry or material can make a big difference.
+In outlet control, the flow is limited by energy losses along the barrel** and the resistance at the outlet, which is why small changes to the culvert geometry or material can make a big difference.
 
+----
 
 ### 🛠️ Engineering Scenarios and Their Potential Impacts
 
@@ -278,7 +255,7 @@ In outlet control, the flow is limited by **energy losses along the barrel** and
 > **Key Takeaway:**  
 > As engineers, we have **multiple tools** to improve culvert performance — by changing how easily water enters the culvert, how easily it flows through it, or how efficiently it exits. Every design decision balances cost, constructability, hydraulics, maintenance, and ecological impacts.
 
-## Demo Video:
+### 🎥 HY-8 Demo Video
 
 Watch the HY-8 tutorial in which I walk you through how you can model a culvert and understand its hydraulic behavior.  
 
@@ -295,7 +272,7 @@ Watch the HY-8 tutorial in which I walk you through how you can model a culvert 
 ## 🌿 Ecological Culvert Design (Bonus)
 
 **Purpose:**  
-Culvert design is not just about hydraulics — it’s also about **preserving ecosystems**.  
+Culvert design is not just about hydraulics — it’s also about preserving ecosystems.  
 The *Culvert Design Guidelines for Ecological Function* developed by the U.S. Fish and Wildlife Service emphasize building culverts that **allow natural stream processes and aquatic life movement** to continue uninterrupted.
 
 **Core Principles:**
@@ -312,7 +289,7 @@ The *Culvert Design Guidelines for Ecological Function* developed by the U.S. Fi
   - Design culverts slightly *below* the streambed (sumped) to allow natural sediment to accumulate, forming a natural bottom.
 
 - **Handle a Range of Flows:**  
-  - Culverts must accommodate low, moderate, and flood flows **without becoming barriers**.
+  - Culverts must accommodate low, moderate, and flood flows without becoming barriers.
 
 - **Prioritize long-term function:**  
   - Design for future conditions (like larger floods or shifting channels) to avoid needing constant maintenance.
