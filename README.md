@@ -18,7 +18,7 @@ _An introduction to culvert hydraulics, flow types, and design fundamentals with
 - [Aquatic Organism Passage (AOP)](#aquatic-organism-passage-aop)
 - [Flow Controls: Inlet vs Outlet](#flow-controls-inlet-vs-outlet)
 - [Maintenance and Real-World Issues](#maintenance-and-real-world-issues)
-- [HY-8 Software and Demo](#hy-8-software-and-demo)
+- [HY-8 Software and Demo](#HY-8-Software-and-Demo)
 - [Ecological Culvert Design (Bonus)](#ecological-culvert-design-bonus)
 - [References](#references)
 
@@ -178,7 +178,7 @@ You have been asked to analyze the existing culvert using HY-8 and propose recom
 ### 🌎 Site Overview
 
 <p align="center">
-  <img src="Images/Watershed.jpg" alt="Watershed Overview" width="700">
+  <img src="Images/Watershed.jpg" alt="Watershed Overview" width="500">
 </p>
 
 <p align="center">
@@ -188,7 +188,7 @@ You have been asked to analyze the existing culvert using HY-8 and propose recom
 ### 📈 Design Hydrograph
 
 <p align="center">
-  <img src="Images/Hydrograph.jpg" alt="Design Hydrograph" width="700">
+  <img src="Images/Hydrograph.jpg" alt="Design Hydrograph" width="500">
 </p>
 
 <p align="center">
