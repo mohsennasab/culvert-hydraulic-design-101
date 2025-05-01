@@ -282,7 +282,15 @@ In outlet control, the flow is limited by **energy losses along the barrel** and
 
 Watch the HY-8 tutorial in which I walk you through how you can model a culvert and understand its hydraulic behavior.  
 
-placeholder for the video here.
+<p align="center">
+  <a href="https://youtu.be/hShcfKochL4" target="_blank">
+    <img src="https://img.youtube.com/vi/hShcfKochL4/0.jpg" alt="Watch HY-8 Culvert Design Video" width="500">
+  </a>
+</p>
+
+<p align="center">
+  <em>Click the image to watch the HY-8 culvert design demo on YouTube.</em>
+</p>
 
 ## 🌿 Ecological Culvert Design (Bonus)
 
